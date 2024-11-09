@@ -5,6 +5,7 @@ import Info from './components/Info'
 import Buttons from './components/Buttons'
 import About from './components/About'
 import Interests from './components/Interests'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Buttons />
       <About />
       <Interests />
+      <Footer />
     </div>
   )
 }

@@ -35,13 +35,14 @@ h1 {
 
 /* Buttons */
 
-button {
+.contact-butt {
   border: none;
   border-radius: 5px;
   height: 34px;
   min-width: 115px;
   font-size: 18px;
   padding: 9px, 13px, 9px, 11px;
+  cursor: pointer;
 }
 
 .buttons {
@@ -60,7 +61,6 @@ i {
 
 #email-icon:hover {
   background-color: #374151;
-  cursor: pointer;
   color: #FFF;
 }
 
@@ -72,7 +72,6 @@ i {
 #linkedin-icon:hover {
   color: #5093E2;
   background-color: #FFF;
-  cursor: pointer;
 }
 
 /* ABOUT */
@@ -92,4 +91,25 @@ p {
 }
 
 
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #161515;
+  margin-top: 30px;
+  height: 60px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.footer-icon {
+  width: 50px;
+  height: 50px;
+  background-color:#676d77;
+  border-radius: 15px;
+  cursor: pointer;
+}
 
