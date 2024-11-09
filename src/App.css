@@ -1,5 +1,5 @@
 .card {
-  width: 25%;
+  width: 40%;
   margin: auto;
   margin-top: 20px;
   border-radius: 15px;
@@ -13,22 +13,67 @@
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 3px;
 }
 
 .occupation {
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 7px;
-  color: #94c58c;
+  margin-bottom: 10px;
+  color: #F3CB8F;
 }
 
 .phone {
-  font-size: 0.4rem;
+  font-size: 0.8rem;
   font-weight: 400;
   text-align: center;
 }
+
+/* Buttons */
+
+button {
+  border: none;
+  border-radius: 5px;
+  height: 34px;
+  min-width: 115px;
+  font-size: 18px;
+  padding: 9px, 13px, 9px, 11px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 8px;
+}
+
+i {
+  margin: 0 5px;
+}
+
+#email-icon {
+  color: #374151;
+}
+
+#email-icon:hover {
+  background-color: #374151;
+  cursor: pointer;
+  color: #FFF;
+}
+
+#linkedin-icon {
+  color: #FFF;
+  background-color: #5093E2;
+}
+
+#linkedin-icon:hover {
+  color: #5093E2;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+
+
