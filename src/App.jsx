@@ -3,6 +3,8 @@
 // import viteLogo from '/vite.svg'
 import Info from './components/Info'
 import Buttons from './components/Buttons'
+import About from './components/About'
+import Interests from './components/Interests'
 import './App.css'
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
     <div className="card">
       <Info />
       <Buttons />
+      <About />
+      <Interests />
     </div>
   )
 }

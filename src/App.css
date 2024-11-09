@@ -75,5 +75,21 @@ i {
   cursor: pointer;
 }
 
+/* ABOUT */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 0;
+  color: #FAF9F6;
+  font-weight: 600;
+}
+
+p {
+  padding-left: 10%;
+  max-width: 80%;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
 
 
